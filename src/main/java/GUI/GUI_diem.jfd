@@ -1,0 +1,185 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.12" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp label1::l::935:x, seq {space :::p, par l {comp scrollPane1::::923:x, comp panel1::::923:x}, space :::p}}"
+			"$verticalGroup": "par l {seq l {comp label1:::p:80:p, space :::p, comp panel1::::212:x, space :::p, comp scrollPane1:::p:400:p, space :::p}}"
+		} ) {
+			name: "this"
+			"preferredSize": new java.awt.Dimension( 938, 708 )
+			"maximumSize": new java.awt.Dimension( 938, 708 )
+			"minimumSize": new java.awt.Dimension( 938, 708 )
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Quản lý điểm thí sinh"
+				"font": new java.awt.Font( "Segoe UI", 1, 24 )
+				"horizontalAlignment": 0
+				"foreground": new java.awt.Color( 51, 51, 51, 255 )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "table1"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jgoodies.forms.layout.FormLayout ) {
+				"$columnSpecs": "growbutton, labelcompgap, growbutton, labelcompgap, growbutton, labelcompgap, growbutton, labelcompgap, growbutton, labelcompgap, growbutton, labelcompgap"
+				"$rowSpecs": "linegap, default, linegap, linegap, linegap, default, linegap, default, glue, linegap, linegap, glue, linegap"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Nhập ID thí sinh"
+					"foreground": &Color0 new java.awt.Color( 51, 51, 51, 255 )
+					"font": &Font0 new java.awt.Font( "Segoe UI", 1, 12 )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridY": 2
+					"insets": new java.awt.Insets( 0, 20, 0, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "thisinhcombo"
+					"background": &Color1 new java.awt.Color( 204, 204, 204, 255 )
+					"foreground": &Color2 new java.awt.Color( 0, 0, 0, 255 )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 3
+					"gridY": 2
+					"gridWidth": 3
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "Khóa thi"
+					"foreground": #Color0
+					"font": #Font0
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 7
+					"gridY": 2
+					"insets": new java.awt.Insets( 0, 20, 0, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "khoathicombo"
+					"background": #Color1
+					"foreground": #Color2
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridY": 2
+					"gridX": 9
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Nghe"
+					"foreground": #Color0
+					"font": #Font0
+					"labelFor": new FormReference( "nghetext" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 3
+					"gridY": 6
+					"insets": new java.awt.Insets( 0, 20, 0, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "nghetext"
+					"background": &Color3 new java.awt.Color( 204, 204, 204, 255 )
+					"foreground": &Color4 new java.awt.Color( 0, 0, 0, 255 )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridY": 6
+					"gridX": 5
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "Nói"
+					"labelFor": new FormReference( "doctext" )
+					"foreground": #Color0
+					"font": #Font0
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 7
+					"gridY": 6
+					"insets": new java.awt.Insets( 0, 20, 0, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "noitext"
+					"background": #Color3
+					"foreground": #Color4
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridY": 6
+					"gridX": 9
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "Đọc"
+					"labelFor": new FormReference( "doctext" )
+					"foreground": #Color0
+					"font": #Font0
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridY": 8
+					"insets": new java.awt.Insets( 0, 20, 0, 0 )
+					"gridX": 3
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "doctext"
+					"background": #Color3
+					"foreground": #Color4
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 5
+					"gridY": 8
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Viết"
+					"labelFor": new FormReference( "viettext" )
+					"foreground": #Color0
+					"font": #Font0
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 7
+					"gridY": 8
+					"insets": new java.awt.Insets( 0, 20, 0, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "viettext"
+					"background": #Color3
+					"foreground": #Color4
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 9
+					"gridY": 8
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "them"
+					"text": "Thêm"
+					"foreground": #Color0
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 3
+					"gridY": 12
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "sua"
+					"text": "Cập nhật"
+					"foreground": #Color0
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 5
+					"gridY": 12
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "in"
+					"text": "In điểm"
+					"foreground": #Color0
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 7
+					"gridY": 12
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "reload"
+					"text": "Reload"
+					"foreground": #Color0
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 9
+					"gridY": 12
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 935, 710 )
+		} )
+	}
+}

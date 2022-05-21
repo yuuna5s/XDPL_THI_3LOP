@@ -1,0 +1,93 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.12" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {comp label1::::843:x, seq l {space :::p, par l {comp panel1::l:::x, seq {par l {comp scrollPane1::::831:x, seq t {space :0:469:x, comp inphieubaothi:::p:148:p, space :p:24:p, comp indachsachphongthi:::p:190:p}}, space :::p}}}}"
+				"$verticalGroup": "par l {seq l {comp label1:::p:80:p, space :::p, comp panel1:::p::p, space :p:33:p, comp scrollPane1::::419:x, space s:::p, par b {comp inphieubaothi::b:p::p, comp indachsachphongthi::b:p::p}, space :::p}}"
+			} ) {
+				name: "contentPanel"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Chi tiết phòng thi"
+					"font": new java.awt.Font( "Segoe UI", 1, 24 )
+					"horizontalAlignment": 0
+					"foreground": new java.awt.Color( 51, 51, 51, 255 )
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "table1"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :p:153:p, par l {seq l {comp label4:::p:108:p, space :::p, comp trinhdo:::p::p}, seq l {comp label2:::p:109:p, space :::p, comp phongthi:::p::p}}, space :p:121:p, par l {seq l {comp label5:::p:109:p, space :::p, comp cathi:::p::p}, seq l {comp label6:::p:109:p, space :::p, comp khoathi:::p::p}}, space ::293:x}}"
+					"$verticalGroup": "par l {seq {par l {seq l {space :p:12:p, par b {comp label5::b:p::p, comp cathi::b:p::p}, space u:::p, par b {comp label6::b:p::p, comp khoathi::b:p::p}}, seq l {space :::p, par b {comp label2::b:p::p, comp phongthi::b:p::p}, space s:::p, par b {comp label4::b:p::p, comp trinhdo::b:p::p}}}, space :::x}}"
+				} ) {
+					name: "panel1"
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "ID phòng thi:"
+						"foreground": &Color0 new java.awt.Color( 51, 51, 51, 255 )
+						"font": &Font0 new java.awt.Font( "Segoe UI", 1, 12 )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "Trình độ:"
+						"foreground": #Color0
+						"font": #Font0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "Ca thi:"
+						"foreground": #Color0
+						"font": #Font0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "Khóa thi:"
+						"foreground": #Color0
+						"font": #Font0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "phongthi"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "trinhdo"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "cathi"
+						"text": "text"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "khoathi"
+						"text": "text"
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "indachsachphongthi"
+					"text": "In danh sách phòng thi"
+					"foreground": &Color1 new java.awt.Color( 51, 51, 51, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "inphieubaothi"
+					"text": "In phiếu báo thi"
+					"foreground": #Color1
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "North"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 845, 685 )
+		} )
+	}
+}

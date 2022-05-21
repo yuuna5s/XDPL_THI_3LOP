@@ -1,0 +1,115 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.12" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {comp bg:::p::p, space :::p, comp internalFrame1:::p::p, space :::p}}"
+			"$verticalGroup": "par l {comp bg:::::x, comp internalFrame1::l:::x}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {comp menu:::p::p}"
+				"$verticalGroup": "par l {comp menu::l:::x}"
+			} ) {
+				name: "bg"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {comp title:::::x, comp trinhdo::l:::x, seq {par l {comp thisinh:::p:284:p, comp phongthi::l:p:284:p, comp khoathi::l:p:284:p, comp cathi::l:p:284:p, comp diemthi::l:p:284:p, comp thongke::l:p:284:p}, space :0:0:x}}"
+					"$verticalGroup": "par l {seq l {comp title:::p:93:p, space :::p, comp trinhdo:::p:64:p, space :::p, comp thisinh:::p:64:p, space :::p, comp phongthi:::p:64:p, space :::p, comp khoathi:::p:64:p, space :::p, comp cathi:::p:64:p, space :::p, comp diemthi:::p:64:p, space :::p, comp thongke:::p:64:p, space :0:125:x}}"
+				} ) {
+					name: "menu"
+					"background": &Color0 new java.awt.Color( 51, 51, 51, 255 )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "title"
+						"text": "TRUNG TÂM THI NGOẠI NGỮ"
+						"font": new java.awt.Font( "Segoe UI", 1, 16 )
+						"horizontalAlignment": 0
+						"foreground": new java.awt.Color( 110, 110, 190, 255 )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "trinhdo"
+						"text": "Trình độ chứng chỉ"
+						"background": #Color0
+						"foreground": &Color1 new java.awt.Color( 0, 153, 102, 255 )
+						"font": &Font0 new java.awt.Font( "Segoe UI", 1, 14 )
+						"horizontalAlignment": 2
+						"margin": new java.awt.Insets( 0, 50, 0, 0 )
+						"rolloverEnabled": true
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "thisinh"
+						"text": "Quản lý thí sinh"
+						"background": #Color0
+						"foreground": #Color1
+						"font": #Font0
+						"horizontalAlignment": 2
+						"margin": new java.awt.Insets( 0, 50, 0, 0 )
+						"rolloverEnabled": true
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "phongthi"
+						"text": "Quản lý phòng thi"
+						"background": #Color0
+						"foreground": #Color1
+						"font": #Font0
+						"horizontalAlignment": 2
+						"margin": new java.awt.Insets( 0, 50, 0, 0 )
+						"rolloverEnabled": true
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "khoathi"
+						"text": "Quản lý khóa thi"
+						"background": #Color0
+						"foreground": #Color1
+						"font": #Font0
+						"horizontalAlignment": 2
+						"margin": new java.awt.Insets( 0, 50, 0, 0 )
+						"rolloverEnabled": true
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "cathi"
+						"text": "Quản lý ca thi"
+						"background": #Color0
+						"foreground": #Color1
+						"font": #Font0
+						"horizontalAlignment": 2
+						"margin": new java.awt.Insets( 0, 50, 0, 0 )
+						"rolloverEnabled": true
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "diemthi"
+						"text": "Quản lý điểm thi"
+						"background": #Color0
+						"foreground": #Color1
+						"font": #Font0
+						"horizontalAlignment": 2
+						"margin": new java.awt.Insets( 0, 50, 0, 0 )
+						"rolloverEnabled": true
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "thongke"
+						"text": "Thống kê"
+						"background": #Color0
+						"foreground": #Color1
+						"font": #Font0
+						"horizontalAlignment": 2
+						"margin": new java.awt.Insets( 0, 50, 0, 0 )
+						"rolloverEnabled": true
+					} )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JInternalFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {space :0:938:x}"
+				"$verticalGroup": "par l {space :0:690:x}"
+			} ) {
+				name: "internalFrame1"
+				"visible": true
+				"frameIcon": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 5 )
+			"size": new java.awt.Dimension( 1230, 740 )
+		} )
+	}
+}
